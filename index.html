@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curse of Strahd</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦇</text></svg>">
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <nav class="main-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">Barovia</a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="sessions.html" data-i18n="nav.sessions">Session Log</a></li>
+        <li><a href="npcs.html" data-i18n="nav.npcs">NPCs</a></li>
+        <li><a href="locations.html" data-i18n="nav.locations">Locations</a></li>
+        <li><a href="goals.html" data-i18n="nav.quests">Quests</a></li>
+        <li><a href="factions.html" data-i18n="nav.factions">Factions</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="lang-toggle" title="Byt till svenska">SV</button>
+        <button class="nav-toggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Curse of Strahd
+        <span>The Mists of Ravenloft</span>
+      </h1>
+      <div class="hero-divider"></div>
+      <p class="hero-intro" data-i18n="home.intro">
+        The mists have closed behind you. The chronicle of Barovia is yet to be written.
+      </p>
+      <div class="hero-goal">
+        <span class="hero-goal-label" data-i18n="home.objective">Current Objective</span>
+        <span id="hero-goal-text" data-i18n="home.objective.text">—</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="page-wrapper">
+    <div class="content-area">
+
+      <div class="divider"><span class="divider-icon">✦</span></div>
+      <h2 class="section-title" data-i18n="home.party">The Party</h2>
+
+      <div class="party-grid" id="party-grid"></div>
+
+      <div class="divider"><span class="divider-icon">✦</span></div>
+
+      <div class="latest-session-preview">
+        <div class="latest-session-label" data-i18n="home.latest">Latest Entry</div>
+        <div class="latest-session-title" id="latest-session-title"></div>
+        <div class="latest-session-summary" id="latest-summary"></div>
+        <a href="sessions.html" class="btn-link" data-i18n="home.readmore">Read Full Session Log</a>
+      </div>
+
+      <div class="wax-seal">S</div>
+
+    </div>
+  </main>
+
+  <footer class="main-footer" data-i18n="home.footer">
+    A campaign chronicle from the Domains of Dread, Barovia
+  </footer>
+
+  <button class="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <script src="assets/js/data.js?v=1"></script>
+  <script src="assets/js/i18n.js?v=1"></script>
+  <script src="assets/js/app.js?v=1"></script>
+  <script>
+    campaignReady.then(() => {
+      const partyGrid = document.getElementById('party-grid');
+      if (!CAMPAIGN.party.length) partyGrid.innerHTML = emptyState('empty.party');
+      CAMPAIGN.party.forEach(pc => {
+        const card = document.createElement('div');
+        card.className = 'party-card fade-in';
+        card.innerHTML = `
+          <div class="party-portrait">
+            <img src="${pc.image}" alt="${pc.name}">
+          </div>
+          <div class="party-card-info">
+            <div class="card-name">${pc.name}</div>
+            <div class="card-detail">${pc.race} ${pc.class} (Lvl ${pc.level})</div>
+            ${pc.subclass ? `<div class="card-subclass">${pc.subclass}</div>` : ''}
+            <div class="card-player">${pc.player}</div>
+          </div>`;
+        partyGrid.appendChild(card);
+      });
+
+      function renderLatestSummary() {
+        const latest = CAMPAIGN.sessions[CAMPAIGN.sessions.length - 1];
+        if (!latest) {
+          document.getElementById('latest-session-title').textContent = '';
+          document.getElementById('latest-summary').innerHTML = `<p>${t('empty.latest')}</p>`;
+          return;
+        }
+        document.getElementById('latest-session-title').textContent =
+          `${latest.title}, ${latest.date}`;
+        const st = getSessionText(latest.id);
+        const recapText = (st && st.recap) || latest.what;
+        const firstParagraph = recapText.split(/\n+/)[0];
+        document.getElementById('latest-summary').innerHTML =
+          `<p>${firstParagraph}</p>`;
+      }
+      renderLatestSummary();
+      window.addEventListener('langchange', renderLatestSummary);
+    });
+  </script>
+</body>
+</html>
