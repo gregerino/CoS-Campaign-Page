@@ -2,13 +2,18 @@
 
 // Renders one S1…Sn filter button per session in campaign.json
 function renderSessionFilters(searchBar, dataAttr) {
-  searchBar.querySelectorAll('.filter-btn').forEach(b => b.remove());
-  (CAMPAIGN.sessions || []).forEach(s => {
+  searchBar.querySelector('.filter-row')?.remove();
+  const sessions = CAMPAIGN.sessions || [];
+  if (!sessions.length) return;
+  const row = document.createElement('div');
+  row.className = 'filter-row';
+  searchBar.appendChild(row);
+  sessions.forEach(s => {
     const btn = document.createElement('button');
     btn.className = 'filter-btn';
     btn.setAttribute(dataAttr, s.id);
     btn.textContent = `S${s.id}`;
-    searchBar.appendChild(btn);
+    row.appendChild(btn);
   });
 }
 
@@ -23,10 +28,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.querySelector('.nav-toggle');
   const links = document.querySelector('.nav-links');
   if (toggle && links) {
-    toggle.addEventListener('click', () => links.classList.toggle('open'));
+    const setMenu = open => {
+      links.classList.toggle('open', open);
+      toggle.textContent = open ? '✕' : '☰';
+      toggle.setAttribute('aria-expanded', open);
+    };
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.addEventListener('click', () => setMenu(!links.classList.contains('open')));
     links.querySelectorAll('a').forEach(a =>
-      a.addEventListener('click', () => links.classList.remove('open'))
+      a.addEventListener('click', () => setMenu(false))
     );
+    document.addEventListener('click', e => {
+      if (links.classList.contains('open') && !e.target.closest('.main-nav')) setMenu(false);
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') setMenu(false);
+    });
   }
 
   // ── Active nav link ──

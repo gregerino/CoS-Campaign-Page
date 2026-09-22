@@ -314,7 +314,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background: url('../images/bg-strahd.webp') center center / cover no-repeat fixed;
+  background: url('../images/bg-strahd.webp') center center / cover no-repeat;
   opacity: 0.22;
   filter: saturate(0.7) contrast(1.05);
   pointer-events: none;
@@ -707,6 +707,10 @@ body {
   border-color: var(--accent-dim);
   color: var(--accent);
   background: var(--accent-glow);
+}
+
+.filter-row {
+  display: contents;
 }
 
 /* ═══════════════════════ NPC CARDS ═══════════════════════ */
@@ -1374,5 +1378,176 @@ body {
     padding: 1rem 1.25rem;
     flex-wrap: wrap;
     gap: 0.5rem;
+  }
+}
+
+/* ═══════════════════════ MOBILE REFINEMENTS ═══════════════════════ */
+
+/* Dynamic viewport units keep heights stable while the mobile URL bar shows/hides */
+@supports (height: 100svh) {
+  body, .page-wrapper { min-height: 100svh; }
+  .hero { min-height: 80svh; }
+}
+
+/* Only apply lift/zoom hover effects on devices that can actually hover,
+   so cards don't stay "stuck" after a tap on touch screens */
+@media (hover: none) {
+  .party-card:hover,
+  .npc-card:hover {
+    transform: none;
+    box-shadow: none;
+    border-color: var(--border);
+  }
+  .party-card:hover .party-portrait img,
+  .npc-card:hover .npc-portrait img {
+    transform: none;
+  }
+}
+
+button, a { -webkit-tap-highlight-color: transparent; }
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0 1.25rem;
+  }
+
+  .nav-brand {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    white-space: nowrap;
+  }
+
+  .nav-toggle {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lang-toggle {
+    min-height: 34px;
+  }
+
+  .nav-links {
+    max-height: calc(100svh - 60px);
+    overflow-y: auto;
+  }
+
+  .nav-links a {
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .nav-links a.active::after {
+    left: 40%;
+    right: 40%;
+  }
+
+  /* 16px prevents iOS Safari from zooming in when the field is focused */
+  .search-input {
+    font-size: 16px;
+  }
+
+  /* Session filters: one horizontally swipeable row instead of a ragged grid */
+  .filter-row {
+    display: flex;
+    flex: 1 1 100%;
+    gap: 0.5rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-snap-type: x proximity;
+    scroll-padding-inline: 1.25rem;
+    margin: 0 -1.25rem;
+    padding: 0 1.25rem 0.25rem;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 1.25rem, #000 calc(100% - 2rem), transparent 100%);
+            mask-image: linear-gradient(90deg, transparent 0, #000 1.25rem, #000 calc(100% - 2rem), transparent 100%);
+  }
+
+  .filter-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .search-bar .filter-row .filter-btn {
+    flex: 0 0 auto;
+    min-width: 44px;
+    min-height: 38px;
+    padding: 0.5rem 0.8rem;
+    scroll-snap-align: start;
+  }
+
+  .session-title {
+    overflow-wrap: anywhere;
+  }
+
+  .location-events li,
+  .faction-description,
+  .npc-detail {
+    overflow-wrap: anywhere;
+  }
+
+  .scroll-top {
+    bottom: calc(1.25rem + env(safe-area-inset-bottom));
+    right: calc(1.25rem + env(safe-area-inset-right));
+    width: 44px;
+    height: 44px;
+  }
+
+  .main-footer {
+    padding-bottom: calc(2.5rem + env(safe-area-inset-bottom));
+  }
+}
+
+/* The nav (brand + six links + language toggle) needs ~900px on one line,
+   so collapse it into the hamburger menu before it starts wrapping */
+.nav-brand,
+.nav-links a {
+  white-space: nowrap;
+}
+
+@media (max-width: 960px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    background: var(--bg-deep);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 8px 30px var(--shadow-heavy);
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 1rem 1.5rem;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-links a.active::after {
+    left: 40%;
+    right: 40%;
+  }
+
+  .nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+  }
+
+  .nav-right {
+    order: 2;
   }
 }
