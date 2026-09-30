@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curse of Strahd</title>
-  <link rel="stylesheet" href="assets/css/styles.css?v=3">
+  <link rel="stylesheet" href="assets/css/styles.css?v=4">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦇</text></svg>">
 </head>
 <body>
@@ -86,9 +86,9 @@
     </div>
   </dialog>
 
-  <script src="assets/js/data.js?v=3"></script>
-  <script src="assets/js/i18n.js?v=3"></script>
-  <script src="assets/js/app.js?v=3"></script>
+  <script src="assets/js/data.js?v=4"></script>
+  <script src="assets/js/i18n.js?v=4"></script>
+  <script src="assets/js/app.js?v=4"></script>
   <script>
     campaignReady.then(() => {
       const partyGrid = document.getElementById('party-grid');
@@ -130,10 +130,15 @@
           [pcDetail(pc), pc.subclass].filter(Boolean).join(' · ');
         pcDialog.querySelector('.pc-dialog-close').setAttribute('aria-label', t('party.close'));
 
-        // Blank lines in campaign.json separate paragraphs
+        // Blank lines in campaign.json separate paragraphs; "## Title" starts a subheading
         const story = getPartyBackstory(pc);
         pcDialog.querySelector('.pc-dialog-story').innerHTML = story
-          ? story.split(/\n\s*\n/).map(p => `<p>${p.trim()}</p>`).join('')
+          ? story.split(/\n\s*\n/).map(block => {
+              const text = block.trim();
+              return text.startsWith('## ')
+                ? `<h3 class="pc-dialog-subhead">${text.slice(3)}</h3>`
+                : `<p>${text}</p>`;
+            }).join('')
           : `<p class="pc-dialog-empty">${t('party.nobackstory')}</p>`;
       }
 

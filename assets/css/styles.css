@@ -1251,6 +1251,15 @@ body {
   margin: 0 0 1rem;
 }
 
+.pc-dialog-subhead {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--text-primary);
+  margin: 1.75rem 0 0.6rem;
+}
+
 .pc-dialog-story .pc-dialog-empty {
   font-style: italic;
   color: var(--text-muted);
