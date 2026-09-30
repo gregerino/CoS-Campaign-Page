@@ -1,6 +1,67 @@
 {
   "campaign": {
-    "party": [],
+    "party": [
+      {
+        "id": "pc1",
+        "name": "Lady Carlotta Von Knorring",
+        "image": "assets/images/party/pc1.webp",
+        "race": "",
+        "class": "Druid",
+        "subclass": "",
+        "level": 1,
+        "player": "",
+        "backstory": "",
+        "backstorySv": ""
+      },
+      {
+        "id": "pc2",
+        "name": "Edmund \"Lucky Ed\" Blackwell",
+        "image": "assets/images/party/pc2.webp",
+        "race": "",
+        "class": "Rogue",
+        "subclass": "",
+        "level": 1,
+        "player": "",
+        "backstory": "",
+        "backstorySv": ""
+      },
+      {
+        "id": "pc3",
+        "name": "Bänk Präst",
+        "image": "assets/images/party/pc3.webp",
+        "race": "",
+        "class": "Cleric",
+        "subclass": "",
+        "level": 1,
+        "player": "",
+        "backstory": "",
+        "backstorySv": ""
+      },
+      {
+        "id": "pc4",
+        "name": "Z'ren",
+        "image": "assets/images/party/pc4.png",
+        "race": "",
+        "class": "Ranger",
+        "subclass": "",
+        "level": 1,
+        "player": "",
+        "backstory": "",
+        "backstorySv": ""
+      },
+      {
+        "id": "pc5",
+        "name": "Shava",
+        "image": "assets/images/party/pc5.webp",
+        "race": "",
+        "class": "Sorcerer",
+        "subclass": "",
+        "level": 1,
+        "player": "",
+        "backstory": "",
+        "backstorySv": ""
+      }
+    ],
     "sessions": [],
     "npcs": [],
     "locations": [],

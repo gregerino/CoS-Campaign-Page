@@ -398,20 +398,35 @@ body {
   margin-bottom: 1.5rem;
 }
 
+/* Flex (not grid) so an odd last row of portraits stays centred */
 .party-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.25rem;
+  --party-cols: 5;
+  --party-gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--party-gap);
   margin: 0 0 2rem;
 }
 
 .party-card {
+  flex: 0 0 calc((100% - (var(--party-cols) - 1) * var(--party-gap)) / var(--party-cols));
+  display: block;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   overflow: hidden;
   text-align: center;
   transition: all var(--transition);
+}
+
+.party-card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .party-card:hover {
@@ -422,12 +437,13 @@ body {
 
 .party-portrait {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 4 / 5;
   overflow: hidden;
   background: var(--bg-surface);
 }
 
 .party-portrait img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1131,6 +1147,171 @@ body {
   color: var(--text-secondary);
 }
 
+/* ═══════════════════════ CHARACTER BACKSTORY DIALOG ═══════════════════════ */
+
+.pc-dialog {
+  width: min(880px, calc(100% - 2rem));
+  max-width: none;
+  max-height: min(640px, calc(100dvh - 2rem));
+  margin: auto; /* the global * { margin: 0 } reset would otherwise pin it top-left */
+  padding: 0;
+  border: 1px solid var(--border-hover);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  box-shadow: 0 24px 80px var(--shadow-heavy), 0 0 60px var(--accent-glow);
+  overflow: hidden;
+}
+
+.pc-dialog::backdrop {
+  background: rgba(5, 2, 4, 0.8);
+  backdrop-filter: blur(4px);
+}
+
+.pc-dialog[open] {
+  animation: pcDialogIn 0.3s ease;
+}
+
+@keyframes pcDialogIn {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to   { opacity: 1; transform: none; }
+}
+
+.pc-dialog-panel {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  height: min(640px, calc(100dvh - 2rem));
+}
+
+.pc-dialog-portrait {
+  position: relative;
+  background: var(--bg-surface);
+  overflow: hidden;
+}
+
+.pc-dialog-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+}
+
+/* Blend the portrait into the text column */
+.pc-dialog-portrait::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 70%, var(--bg-card) 100%);
+  pointer-events: none;
+}
+
+.pc-dialog-body {
+  padding: 2.5rem 2.25rem 2rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.pc-dialog-name {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: var(--text-primary);
+  margin: 0;
+  padding-right: 2rem;
+}
+
+.pc-dialog-detail {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.35rem;
+}
+
+.pc-dialog-detail:empty { display: none; }
+
+.pc-dialog-label {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 1.75rem 0 0.9rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(var(--accent-rgb), 0.2);
+}
+
+.pc-dialog-story p {
+  font-size: 1.08rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin: 0 0 1rem;
+}
+
+.pc-dialog-story .pc-dialog-empty {
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.pc-dialog-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 1;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: rgba(10, 6, 8, 0.6);
+  color: var(--text-secondary);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.pc-dialog-close:hover,
+.pc-dialog-close:focus-visible {
+  color: var(--text-primary);
+  border-color: var(--accent);
+  outline: none;
+}
+
+/* Phones: portrait on top, story scrolls underneath */
+@media (max-width: 640px) {
+  .pc-dialog {
+    width: calc(100% - 1rem);
+    max-height: calc(100dvh - 1rem);
+  }
+
+  .pc-dialog-panel {
+    grid-template-columns: 1fr;
+    grid-template-rows: 38dvh 1fr;
+    height: calc(100dvh - 1rem);
+  }
+
+  .pc-dialog-portrait::after {
+    background: linear-gradient(180deg, transparent 60%, var(--bg-card) 100%);
+  }
+
+  .pc-dialog-body {
+    padding: 1.25rem 1.25rem calc(1.5rem + env(safe-area-inset-bottom));
+  }
+
+  .pc-dialog-name {
+    font-size: 1.4rem;
+  }
+}
+
+body:has(.pc-dialog[open]) {
+  overflow: hidden;
+}
+
 /* ═══════════════════════ EMPTY STATE ═══════════════════════ */
 
 .empty-state {
@@ -1285,7 +1466,7 @@ body {
   }
 
   .party-grid {
-    grid-template-columns: repeat(2, 1fr);
+    --party-cols: 3;
   }
 
   .npc-grid {
@@ -1345,8 +1526,8 @@ body {
 
 @media (max-width: 480px) {
   .party-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 0.75rem;
+    --party-cols: 2;
+    --party-gap: 0.75rem;
   }
 
   .party-card-info {

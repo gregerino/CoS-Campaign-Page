@@ -42,6 +42,10 @@ const TRANSLATIONS = {
     "goals.completed": "Completed Quests",
     "goals.from": "From Session",
     "empty.party": "No souls have yet entered Barovia.",
+    "party.backstory": "Backstory",
+    "party.nobackstory": "This tale has yet to be written…",
+    "party.open": "Read the backstory of",
+    "party.close": "Close",
     "empty.latest": "No entries yet. The first page awaits.",
     "empty.sessions": "No sessions have been recorded yet.",
     "empty.npcs": "No one has been met in the mists yet.",
@@ -92,6 +96,10 @@ const TRANSLATIONS = {
     "goals.completed": "Avklarade uppdrag",
     "goals.from": "Från session",
     "empty.party": "Inga själar har ännu trätt in i Barovia.",
+    "party.backstory": "Bakgrundshistoria",
+    "party.nobackstory": "Denna berättelse är ännu inte nedskriven…",
+    "party.open": "Läs bakgrundshistorien för",
+    "party.close": "Stäng",
     "empty.latest": "Inga anteckningar ännu. Första sidan väntar.",
     "empty.sessions": "Inga sessioner har skrivits ned ännu.",
     "empty.npcs": "Ingen har mötts i dimman ännu.",
@@ -108,6 +116,11 @@ function getNpcAppearance(npcName) {
     if (npc && npc.appearanceSv) return npc.appearanceSv;
   }
   return null;
+}
+
+function getPartyBackstory(pc) {
+  if (getLang() === 'sv' && pc.backstorySv) return pc.backstorySv;
+  return pc.backstory || pc.backstorySv || '';
 }
 
 function getLocationEvents(locationName) {
