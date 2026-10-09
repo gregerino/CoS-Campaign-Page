@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curse of Strahd</title>
-  <link rel="stylesheet" href="assets/css/styles.css?v=4">
+  <link rel="stylesheet" href="assets/css/styles.css?v=6">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦇</text></svg>">
 </head>
 <body>
@@ -80,15 +80,16 @@
       <div class="pc-dialog-body">
         <h2 class="pc-dialog-name" id="pc-dialog-name"></h2>
         <div class="pc-dialog-detail"></div>
+        <div class="pc-dialog-player"></div>
         <div class="pc-dialog-label" data-i18n="party.backstory">Backstory</div>
         <div class="pc-dialog-story"></div>
       </div>
     </div>
   </dialog>
 
-  <script src="assets/js/data.js?v=4"></script>
-  <script src="assets/js/i18n.js?v=4"></script>
-  <script src="assets/js/app.js?v=4"></script>
+  <script src="assets/js/data.js?v=6"></script>
+  <script src="assets/js/i18n.js?v=6"></script>
+  <script src="assets/js/app.js?v=6"></script>
   <script>
     campaignReady.then(() => {
       const partyGrid = document.getElementById('party-grid');
@@ -128,6 +129,8 @@
         pcDialog.querySelector('.pc-dialog-name').textContent = pc.name;
         pcDialog.querySelector('.pc-dialog-detail').textContent =
           [pcDetail(pc), pc.subclass].filter(Boolean).join(' · ');
+        pcDialog.querySelector('.pc-dialog-player').textContent =
+          pc.player ? `${t('party.player')} ${pc.player}` : '';
         pcDialog.querySelector('.pc-dialog-close').setAttribute('aria-label', t('party.close'));
 
         // Blank lines in campaign.json separate paragraphs; "## Title" starts a subheading
