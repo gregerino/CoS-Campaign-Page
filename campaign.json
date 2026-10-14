@@ -74,10 +74,274 @@
         "backstorySv": "Dorian Voss var en godhjärtad och tystlåten ung man från hamnstaden Luskan, där hans familj i generationer hade drivit en liten antikhandel. Som enda barnet till ett hårt arbetande, något till åren kommet par växte Dorian upp omgiven av de märkliga och fascinerande föremål som fyllde butiken. Medan andra barn tillbringade dagarna med att springa runt på Luskans råa gator föredrog Dorian gamla böcker, bortglömda artefakter och berättelserna bakom de skatter familjen sålde. Föräldrarna lärde honom antikhandelns konst, och han utvecklade snabbt en fascination för de mer udda föremål som passerade genom butiken. De flesta var vanliga antikviteter, värdefulla för sin ålder, sitt hantverk eller sin historia. Men några var annorlunda. Vissa artefakter tycktes dra Dorian till sig. När han rörde vid dem upplevde han ibland märkliga förnimmelser – viskningar som tycktes komma från ingenstans, syner av okända platser och en obehaglig känsla av att något iakttog honom från andra sidan den värld han kände. Föräldrarna märkte den egendomliga kopplingen men talade sällan om den. I stället varnade de bara Dorian för att röra vissa artefakter. Dorian lydde. Ända tills natten då allt förändrades.\n\nEtt gäng pirater bröt sig in i antikhandeln. De var inga vanliga tjuvar. De visste precis vad de letade efter, och de krävde att Dorians familj skulle lämna ut ett av butikens mest ovanliga föremål. Föräldrarna vägrade. Piraterna mördade dem. Något inom Dorian gick sönder. Sorg och raseri överväldigade honom. Hans blick föll på ett gammalt svärd som stod utställt bland butikens antikviteter. Han hade alltid känt något märkligt kring det, men aldrig förstått varför. Nu tycktes svärdet kalla på honom. Dorian tog det i sina händer. Något svarade. Mörker vällde genom honom, och Dorian högg ned piraterna med svärdet. Sedan var det över. Det blev tyst i butiken. Dorian stod bland kropparna efter männen som hade mördat hans familj, med svärdet fortfarande i handen. Långsamt ebbade raseriet ut, och tyngden av vad han hade gjort började sjunka in. Han såg på sina händer – samma händer som i åratal varsamt hade hanterat familjens dyrbara antikviteter – nu täckta av blod. Han överväldigades av chock och fasa. Hans föräldrar var döda. Hans hem var förstört. Och i sitt raseri hade Dorian blivit något han aldrig trott att han kunde bli. Dorian kunde inte stanna. Han packade en väska med de tillhörigheter han kunde bära och flydde från butiken, och lämnade allt han någonsin känt bakom sig. Svärdet tog han med sig, även om han inte förstod varför han inte kunde förmå sig att lämna det. Allt han visste var att det här aldrig fick hända igen. Han fick inte förlora kontrollen på det här sättet. Han måste lära sig att förstå den märkliga kraft som hade vaknat inom honom. Annars fruktade han att han en dag skulle förlora sin mänsklighet, precis som piraterna hade gjort. Svärdet förblev vid hans sida, och någonstans bortom hans förstånd lyssnade något fortfarande.\n\nDorian vandrade planlöst från stad till stad, kämpade för att överleva och tog vilket arbete han än kunde hitta. Han var ständigt på väg och stannade aldrig länge nog någonstans för att knyta band. Men under allt detta fanns en aldrig sinande längtan efter svar. Han ville förstå svärdet, den märkliga kraften inom honom och den närvaro som hade svarat honom den natten i butiken. Till slut befann sig Dorian på ett uppdrag i sällskap med en ung sorcerer vid namn Shava. Kanske var det för att den tystlåtne och mystiske tieflingen påminde Dorian om honom själv, eller kanske var det det märkliga hängsmycket kring Shavas hals, som av någon anledning alltid fick Dorian att minnas det stilla liv han en gång delat med sina föräldrar. Oavsett skälet fann Dorian det lätt att lita på Shava, och för första gången på många år kände han att han hade funnit en sann vän. För första gången sedan han lämnade Luskan kände sig Dorian inte längre helt ensam."
       }
     ],
-    "sessions": [],
-    "npcs": [],
-    "locations": [],
+    "sessions": [
+      {
+        "id": 1,
+        "title": "Session 1",
+        "date": "13 Oktober 2026",
+        "where": "On the road to Daggerford the party was drawn off the path to a tent camp full of people who make their living from performance and spectacle, where they split up between the main stage, the mirror tent, the acrobatics tent, the puppet wagon and the wagon camp. When the mist came during the show it carried them to the Gates of Barovia, and from there down the road through the woods to a lonely house: Death House.",
+        "who": "Tobias Wren and Synn welcomed the party at the edge of the tent camp. Inside they met the knife-thrower Doridian Kessel, the fortune teller Vesalka Thorn, the puppet maker Petra Duskbell, the acrobat Yelena Grimauld, the fire-eater Corbin Vashti and the wagon keeper Nadia Feugére, and glimpsed Ilse Marrowgale and the jester Harlan Croix. Beyond the gates they met two frightened children, Rose and Thorn.",
+        "what": "The party accepted Synn's offer of food and a bed in exchange for honest criticism of her show. Z'ren lost a knife-throwing contest to Doridian, Vesalka read the Tarokka for Shava (the Conjurer, the Abjurer, the Myrmidon, the Ghost and the Tempter) and for Edmund (the Illusionist, the Miser, the Mercenary, the Seer and the Marionette), and Corbin told a story in green flames of a ruler saved by a wandering people. Z'ren blew fire at Corbin, who vanished in smoke. Bänk distracted Nadia while Edmund failed to pick the lock on a box under her wagon, and Petra gave Edmund a doll labelled Lucky that frightened him. During the show the mist carried the party into a grey land, through the Gates of Barovia, past a corpse holding a letter from the Burgomaster of Barovia, to a house where Rose and Thorn begged them to find their parents.",
+        "learned": "Shava's Emberheart grows warm near Synn, and she whispered him an apology as the mist took the party. When Corbin was attacked he simply went up in smoke. Petra had a doll that looks exactly like Edmund as a child. The mist closes the road behind them; the only way is forward. A letter from Kolyan Indirovich, the Burgomaster of Barovia, tells of a vampire that has preyed on his people for over four hundred years and is now feeding on his adopted daughter Ireena; he begs outsiders to seal the land away rather than come to save it. Rose and Thorn's parents went into the basement to deal with a monster and have not come back.",
+        "goal": "The party must search the house for Rose and Thorn's parents and find out what is in the basement.",
+        "recap_en": "The road to Daggerford was long and quiet, the kind of road where the only thing on anyone's mind is the destination. And the destination was a pleasant one: Lady Morwen had invited the party to dinner, and after days of travel the thought of a warm hall, a laid table and a soft bed was enough to keep their feet moving. Dusk was settling over the Sword Coast and the daylight was draining out of the sky when Shava stopped in the middle of the road and lifted his head. A scent was drifting on the evening air. Roasted pork. Spiced potatoes. Woodsmoke. And beneath it, so faint it was almost missed, the sound of a lute and the ripple of laughter.\n\nThey followed it. It led them off the road and into a glade, and there, glowing in the twilight, lay a camp of tents. A dozen of them, striped and patched, gathered around two crackling campfires. Wagons stood at the edges, lanterns swung between tent poles, and everywhere people were busy with something: juggling, practising songs, swallowing fire, stirring pots. A whole little town of people who made their living from performance and spectacle. It felt festive. It felt safe. Nothing about it seemed wrong at all.\n\nShava, never one for crowds, slipped behind the others. But the first person to greet them spotted him anyway. Tobias Wren, a halfling in a patched tailcoat of loud colours and a tall hat, with a bronze staff topped by a speaking horn and a smile that looked as if it had been sewn onto his face, bounded up to the group and would not rest until he had coaxed Shava back out from behind his companions. He wanted to welcome every last one of them. He bowed to Lady Carlotta, clapped Edmund on the arm, and offered them all food before anyone had even given a name.\n\nThen she came. Synn. A tiefling with deep red skin, dark curls pinned loosely up, curved horns banded with gold, and amber eyes that seemed to read each traveller in a single glance. She wore a worn but elegant costume in wine red, purple and gold, hung with little charms and trinkets that chimed as she moved. She greeted them warmly, one by one, and asked who they were and where they were going. One by one. Except Shava. She looked past him as if he were not there at all. And as she walked behind him, the Emberheart he carries grew warm against him, for no reason he could name.\n\nBänk and Z'ren did not like it. Strangers this eager to feed you usually want something. But Tobias and Synn were open about what that was: they were rehearsing a new show, The Beast in the Wild, and they wanted honest, constructive criticism from fresh eyes. In return the travellers would have a feast and a place by the fire to sleep for the night. It was hard to find the trap in that. So the party followed Synn into the camp, and she showed them around, pointing out each tent with an open palm: the main stage, the mirror tent, the acrobats, the puppet wagon, the fire show. And then, as tends to happen, they drifted apart, each pulled toward something different.\n\nZ'ren and Lady Carlotta made their way to the main stage, where a knife-thrower named Doridian Kessel was practising. He was a muscular man with long dark hair and tattooed forearms crossed with old scars, and he smiled constantly in a way that never quite reached his eyes. Z'ren challenged him. Doridian accepted gladly. He threw a single knife into a ball on the target board, then turned to Z'ren and invited him to hit the ball with another. Z'ren threw. The knife buried itself in the dirt. He threw again. It sailed clean over the board. Z'ren walked away muttering under his breath, while Lady Carlotta found a seat by the fire and settled in to wait for the others, Mr. Pudding curled up and purring beside her.\n\nShava, meanwhile, was hunting for Synn. He was convinced there was something between them, some connection he could not place, and he wanted to know what it was. But he never found her. Instead, as he passed the mirror tent, a voice called him inside. Vesalka Thorn was an old woman wrapped in layers of dark red shawls, with pencil-grey eyes, a ring on every finger and a gaze that weighed a person before a word was spoken. She offered to read his future, and he accepted. Inside, the tent was a maze of mirrors, and among them stood Ilse Marrowgale, a pale, almost translucent woman in a patchwork dress, admiring herself in the glass as if she had all the time in the world. Vesalka took Shava's wrist with fingers as cold as ice and laid five cards on the table before him, one after another. For knowledge, the Conjurer. For protection, the Abjurer. For strength, the Myrmidon. For an ally, the Ghost. And for the danger that awaits him, the Tempter. She turned each card with the same slow care and spoke of what she saw in them, but her words were all windows and no doors. He left the tent quiet and thoughtful, turning her words over in his mind, and made his way back to the fire, where Dorian was waiting for him.\n\nEdmund wandered to the acrobatics tent and found Yelena Grimauld, a lithe half-elf with a long dark braid, spiral tattoos and a scar running down her spine. She was wild and flirtatious and seemed to delight in making him uncomfortable. She performed a private acrobatic routine just for him, then leaned close and told him that the next thing worth seeing in the camp was the puppet maker. Edmund had the distinct feeling she was trying to get inside his head, and he left the tent as quickly as he politely could.\n\nAs it happened, Bänk had already found the puppet maker. Petra Duskbell was a small, neat dwarven woman who smelled of wood and lacquer and cradled a doll in her arms the way a mother holds a child. She spoke to her puppets, and they answered her in other voices. She performed a marionette dance for Bänk, the little figure jerking and twirling on its strings, and when it was over Bänk walked away unimpressed and more than a little confused about what he had just watched.\n\nWhen the party gathered once more around the fire, Synn was waiting for them. She wanted to know what they thought: of the camp, of the performers, of everything they had seen. Each of them told her something different, and she listened to every word of criticism as if it mattered. Then she called for supper, and Corbin Vashti appeared with a tray piled high with food. Corbin was a big, bald man with a bushy beard, scarred hands and face, and eyebrows burned away for good. Over the meal Synn asked about their journey and who they were, and then she asked whether they would like to hear a story. Corbin would tell it.\n\nCorbin raised his cup toward the fire, took a mouthful of dark red wine, held it a moment, and spat it into the flames. Synn picked up a lute and began to play softly. The fire roared up, the warm orange light turned an eerie green, and the shadows around the camp stretched long. And in the flames, shapes began to move. He told of a people from an ancient land whose name is long forgotten, driven from their homes by war, who took to the roads with nothing but their wagons, their families and the path ahead, and learned that sometimes home is simply the people who share your fire. One night they found a warrior near death on a battlefield, his horse dead, his armour broken. They did not know him. They could have left him. Instead they bound his wounds, shared their bread and wine, and when his enemies came for him at bridges and mountain passes, they fought beside him, not for his crown, but because he had shared their fire and they had promised to bring him home. Only when they reached his castle did they learn that he was the ruler of the land, and in gratitude he swore that his land would forever be open to them. For a moment the picture in the fire was almost beautiful. Then Corbin's smile faded. The years passed, the noble ruler fell to a curse, some say of love, some of pride or blood, and he dragged his land down with him. The sky turned grey, the forests filled with things that hunt after dark, and a mist closed around the valley so that every road out led back in. But the wandering people still held his promise, and could still travel his roads. The dark figure in the fire crumbled into hundreds of green sparks. Some say, Corbin finished, that every curse has its price, and that one day someone will find the crack where the light gets in. Or perhaps the land is waiting for someone. The flames faded back to orange, and it was just an ordinary campfire again.\n\nDorian stayed by the fire long after, staring into it, wondering whether what he had seen in those flames was a true story or only a performer's trick. Mr. Pudding padded over to Shava and sat down beside him, and Lady Carlotta was quietly delighted that the cat had found someone other than her and Z'ren to keep company.\n\nZ'ren wanted to learn how Corbin had commanded the fire like that, so he followed him. Corbin gestured for him to try swallowing a flame. Z'ren tried, failed, and burned himself. So Corbin suggested he blow the fire out over a torch instead, and somewhere in that moment Z'ren realised he was being made a fool of. He blew the flame straight at Corbin. The fire caught him, and Corbin did not scream or burn. He simply went up in smoke, gone, as if he had never been there at all. Z'ren stood alone holding the bottle of liquor Corbin had given him, with no idea where the man had gone, and walked slowly back to the fire, deeply confused.\n\nBänk and Edmund, meanwhile, had wandered off into the tents together, and Lady Carlotta followed them in secret. Or so she believed, until a snapping branch gave her away and the two of them turned to ask what exactly she was doing. She told them she was going back to Mr. Pudding, and returned to the fire. Bänk and Edmund walked on. Bänk had not eaten that night, and the hunger in him was not the kind that food alone would answer. He needed something more, an offering, at least for tonight. Edmund asked him how hungry he was, and Bänk's answer was enough. Edmund had his own itch: an instinct, old and familiar, to steal something before the night was over.\n\nAt the edge of the camp they found a horse-drawn wagon with a woman keeping watch beside it. Nadia Feugére was young, with dark hair tied in a knot, a dark red scarf, a whip within easy reach and sharp eyes that were always measuring. Bänk walked up to her and asked what she was keeping watch for, and while he held her attention, Edmund slipped around the other side of the wagon. Bänk was the distraction. Beneath the wagon Edmund found a box, and on the box a lock. He set to work on it and failed, and his tool snapped off in the lock. He took a breath, focused, tried again with a fresh tool, and failed again. He melted back into the shadows. Bänk, seeing Edmund slip away, told Nadia he was heading back to the fire.\n\nOn their way back they ran into Petra again. She took Edmund to her puppet wagon and handed him a doll, and when he looked at it, fear went through him like ice water. It looked uncannily like him, as a child. On the little tag tied to it was a single word: Lucky. A souvenir, she said, to remember the camp by, because they take such good care of their guests. Edmund could barely take his eyes off it, and the doll's small, familiar face frightened him far more than he wanted to show. Edmund told Bänk that the lock on that wagon had been unreasonably difficult, and that whatever was in that box had to be something very valuable indeed. A little further on, Vesalka Thorn greeted them, and Edmund, covering his unease, lifted the doll's hand and made it wave at her. She offered to read his future. He accepted, handed the doll to Bänk, and sat down for his reading. Five cards. For knowledge, the Illusionist. For protection, the Miser. For strength, the Mercenary. For an ally, the Seer. And for the danger, the Marionette, a puppet on its strings, with the little doll that looked like him as a child sitting in Bänk's hands only a few steps away. When it was done he thanked her and rose to leave, but he could not help asking what she had meant. She only said that she can offer a window, but not one you can quite see through. After that, Edmund wanted nothing more than to get back to the fire, and he walked straight there without stopping.\n\nThen the show began. The Beast in the Wild. The party watched, and for a while it was exactly what they had been promised. Then the mist came rolling in across the glade, thick and white and cold, and in the middle of it Synn leaned close to Shava and whispered something in a language he did not quite know. He did not understand the words. But he understood enough. It was an apology. The fog took them all, pulled them down into a trance, and when they woke they were somewhere else entirely.\n\nA grey land. Dark, and ghostly, and silent. The road behind them was swallowed by the mist, and every attempt to look back showed only more fog. The only way was forward. Z'ren took the lead, and before long they came to a great stone wall. Two tall pillars rose out of the dense forest on either side of the road, joined by enormous iron gates, cold dew clinging to the rusted bars. Flanking them stood two statues of armed guardians, both beheaded, their heads lying forgotten in the weeds at their feet. There was no birdsong, no wind. Only the weight of the iron. The Gates of Barovia. Z'ren walked on, and one by one the others followed him through.\n\nThey had not gone far down the road beyond when Dorian noticed something half-buried in the mud: a corpse, and clutched in its hand, a letter. He pulled it free and read it aloud to the others. It was written by Kolyan Indirovich, the Burgomaster of Barovia. His adopted daughter, Ireena Kolyana, had been bitten night after night by a vampire, a creature that has drained the blood of his people for over four hundred years and has grown too powerful to defeat. Ireena was wasting away from the unholy wound. But he did not ask for rescue. He begged whoever read it to give Barovia up for dead, to ring the land with symbols of good and have holy men seal the devil inside its walls, so that the evil would not spread to the rest of the world. There was great wealth trapped in the village, he wrote, and it could be claimed once they were all gone. The party was still standing over the body trying to make sense of it when the wolves began to howl somewhere in the forest. No one waited to find out how close they were. Weapons drawn, they moved on together.\n\nThe howling grew more distant as they walked, and in its place came another sound, one that was somehow worse. A child, crying. As they followed it, a house came into view in a small, fog-wrapped clearing just off the road: a tall manor flanked by two ruined outbuildings, yet strangely well kept compared to its neighbours, with oiled panels and untouched curtains, as if someone still lived there and cared for it. Outside a rusted iron gate stood two children. A girl of about ten, and a little boy of perhaps seven who was crying. They said their names were Rose and Thorn. Their parents had told them to wait outside while they took care of a monster in the basement, and they had not come back. The children were frightened for them, and they begged the strangers to go in, find their parents and make sure they were all right.\n\nThe party took on the task. But first they stayed with the children a while to learn what they could: how to get into the basement, what the house was like inside. Rose and Thorn did not know the way down; they had never been there. Rose asked Edmund if he would stay with them, so they would feel safe, like a big brother. Edmund gently explained that if they wanted to help their parents, everyone needed to go into the house together, and they understood. Then Rose turned to Shava and asked him who had left him, because he looked like someone who had been left all alone. Shava said he did not know.\n\nEdmund asked Rose and Thorn to wait outside, and they promised they would. And with the children watching from the gate, the party turned to the house in front of them and opened its doors.",
+        "recap_sv": "Vägen mot Daggerford var lång och tyst, den sortens väg där det enda man tänker på är målet. Och målet var ett trevligt sådant: Lady Morwen hade bjudit gruppen på middag, och efter dagar av resande räckte tanken på en varm sal, ett dukat bord och en mjuk säng för att hålla fötterna i rörelse. Skymningen lade sig över Sword Coast och dagsljuset höll på att rinna ur himlen när Shava stannade mitt på vägen och lyfte huvudet. En doft drev fram i kvällsluften. Rostat fläsk. Kryddad potatis. Vedrök. Och under den, så svagt att det nästan gick förbi, ljudet av en luta och porlande skratt.\n\nDe följde den. Den ledde dem bort från vägen och in i en glänta, och där, glödande i skymningen, låg ett tältläger. Ett dussin tält, randiga och lappade, samlade kring två sprakande lägereldar. Vagnar stod längs kanterna, lyktor gungade mellan tältstängerna och överallt var människor sysselsatta med något: jonglering, sångövningar, eldslukning, grytor som rördes om. En hel liten stad av människor som levde på artisteri och konster. Det kändes festligt. Det kändes tryggt. Ingenting med det verkade fel alls.\n\nShava, som aldrig tyckt om folkmassor, gled in bakom de andra. Men den första som hälsade på dem fick syn på honom ändå. Tobias Wren, en halvling i en lappad frack i bjärta färger och hög hatt, med en bronsstav krönt av en megafon och ett leende som såg ut att vara fastsytt i ansiktet, skuttade fram till gruppen och gav sig inte förrän han lockat fram Shava bakom sina följeslagares ryggar. Han ville välkomna varenda en av dem. Han bugade för Lady Carlotta, klappade Edmund på armen och bjöd dem alla på mat innan någon ens hunnit säga sitt namn.\n\nSedan kom hon. Synn. En tiefling med djupt röd hud, mörka lockar löst uppsatta, böjda horn med gulddetaljer och bärnstensfärgade ögon som verkade läsa av varje resenär med en enda blick. Hon bar en sliten men elegant kostym i vinrött, lila och guld, behängd med små amuletter och lyckobringare som klingade när hon rörde sig. Hon hälsade varmt på dem, en efter en, och frågade vilka de var och vart de var på väg. En efter en. Utom Shava. Hon såg förbi honom som om han inte fanns. Och när hon gick bakom honom blev hans Emberheart varmt, utan någon anledning han kunde sätta ord på.\n\nBänk och Z'ren tyckte inte om det. Främlingar som är så ivriga att mata en brukar vilja ha något. Men Tobias och Synn var öppna med vad det var: de repeterade en ny föreställning, The Beast in the Wild, och de ville ha ärlig, konstruktiv kritik från nya ögon. I utbyte skulle resenärerna få en festmåltid och en plats vid elden att sova för natten. Det var svårt att hitta fällan i det. Så gruppen följde Synn in i lägret, och hon visade dem runt och pekade ut varje tält med öppen handflata: huvudscenen, spegeltältet, akrobaterna, dockvagnen, eldshowen. Och sedan, som det brukar bli, gled de isär, var och en dragen mot något eget.\n\nZ'ren och Lady Carlotta tog sig till huvudscenen, där en knivkastare vid namn Doridian Kessel övade. Han var en muskulös man med långt mörkt hår och tatuerade underarmar korsade av gamla ärr, och han log hela tiden på ett sätt som aldrig riktigt nådde ögonen. Z'ren utmanade honom. Doridian antog utmaningen med glädje. Han kastade en enda kniv in i en boll på måltavlan, vände sig sedan mot Z'ren och bjöd in honom att träffa bollen med ytterligare en. Z'ren kastade. Kniven borrade sig ner i backen. Han kastade igen. Den seglade rakt över tavlan. Z'ren gick därifrån muttrande för sig själv, medan Lady Carlotta hittade en plats vid elden och slog sig ner för att vänta in de andra, med Mr. Pudding hopkrupen och spinnande bredvid sig.\n\nShava jagade under tiden efter Synn. Han var övertygad om att det fanns något mellan dem, en koppling han inte kunde placera, och han ville veta vad det var. Men han hittade henne aldrig. Istället, när han passerade spegeltältet, ropade en röst in honom. Vesalka Thorn var en gammal kvinna insvept i lager av mörkröda schalar, med blyertsgrå ögon, en ring på varje finger och en blick som vägde en människa innan ett ord ens sagts. Hon erbjöd sig att sia om hans framtid, och han accepterade. Inne i tältet var det en labyrint av speglar, och bland dem stod Ilse Marrowgale, en blek, nästan genomskinlig kvinna i en lapptäcksklänning, och beundrade sig själv i glaset som om hon hade all tid i världen. Vesalka tog tag i Shavas handled med fingrar kalla som is och lade fem kort på bordet framför honom, ett efter ett. För kunskapen, Besvärjaren. För skyddet, Besvärjaren av skydd. För styrkan, Myrmidonen. För vännen, Spöket. Och för faran som väntar honom, Frestaren. Hon vände varje kort med samma långsamma omsorg och talade om vad hon såg i dem, men hennes ord var bara fönster och inga dörrar. Han lämnade tältet tyst och fundersam, vände och vred på hennes ord, och tog sig tillbaka till elden där Dorian väntade på honom.\n\nEdmund vandrade bort till akrobatiktältet och hittade Yelena Grimauld, en smidig halvalv med en lång mörk fläta, spiralformade tatueringar och ett ärr längs ryggraden. Hon var vild och flörtig och verkade njuta av att göra honom obekväm. Hon gjorde ett privat akrobatiskt nummer bara för honom, lutade sig sedan nära och sa att nästa sak värd att se i lägret var dockmakerskan. Edmund fick en tydlig känsla av att hon försökte ta sig in i hans huvud, och lämnade tältet så snabbt som artigheten tillät.\n\nSom det var hade Bänk redan hittat dockmakerskan. Petra Duskbell var en liten, prydlig dvärgkvinna som doftade av trä och lack och vaggade en docka i famnen så som en mor håller ett barn. Hon pratade med sina dockor, och de svarade henne med andra röster. Hon framförde en marionettdans för Bänk, den lilla figuren ryckte och snurrade i sina trådar, och när den var över gick Bänk därifrån oimponerad och mer än lite förvirrad över vad han just sett.\n\nNär gruppen samlades kring elden igen väntade Synn på dem. Hon ville veta vad de tyckte: om lägret, om artisterna, om allt de sett. Var och en berättade något olika, och hon lyssnade på varje ord av kritik som om det betydde något. Sedan ropade hon in maten, och Corbin Vashti dök upp med en bricka fylld till bredden. Corbin var en stor, skallig man med yvigt skägg, ärrade händer och ansikte och ögonbryn som bränts bort för gott. Under måltiden frågade Synn om resan och vilka de var, och sedan frågade hon om de ville höra en historia. Corbin skulle berätta den.\n\nCorbin lyfte sin bägare mot elden, tog en klunk mörkrött vin, höll det kvar ett ögonblick och spottade det rakt in i lågorna. Synn tog upp en luta och började spela mjukt. Elden fräste upp, det varma orange skenet blev kusligt grönt och skuggorna runt lägret växte sig långa. Och i lågorna började former röra sig. Han berättade om ett folk från ett uråldrigt land vars namn sedan länge fallit i glömska, drivna från sina hem av krig, som tog till vägarna med bara sina vagnar, sina familjer och vägen framför sig, och lärde sig att ett hem ibland bara är människorna som delar din eld. En natt fann de en krigare nära döden på ett slagfält, hans häst död och rustningen sönderslagen. De kände honom inte. De kunde ha lämnat honom. Istället förband de hans sår, delade sitt bröd och vin med honom, och när hans fiender kom efter honom vid broar och bergspass stred de vid hans sida, inte för hans krona, utan för att han delat deras eld och de lovat att föra honom hem. Först när de nådde hans slott förstod de att han var härskare över landet, och i tacksamhet svor han att hans land för alltid skulle stå öppet för dem. För ett ögonblick var bilden i elden nästan vacker. Sedan försvann Corbins leende. Åren gick, den ädle härskaren föll offer för en förbannelse, vissa säger av kärlek, andra av stolthet eller blod, och han drog sitt land med sig i fallet. Himlen blev grå, skogarna fylldes av sådant som jagar efter mörkrets inbrott, och en dimma slöt sig kring dalen så att varje väg ut ledde tillbaka in. Men det vandrande folket hade fortfarande hans löfte och kunde fortfarande färdas längs hans vägar. Den mörka gestalten i elden föll sönder i hundratals gröna gnistor. Vissa säger, avslutade Corbin, att varje förbannelse har ett pris, och att någon en dag kommer att hitta sprickan där ljuset tränger in. Eller kanske väntar landet på någon. Lågorna bleknade tillbaka till orange, och det var bara en vanlig lägereld igen.\n\nDorian satt kvar vid elden länge efteråt och stirrade in i den, och undrade om det han sett i lågorna var en sann historia eller bara ett artisttrick. Mr. Pudding tassade över till Shava och satte sig bredvid honom, och Lady Carlotta blev tyst förtjust över att katten hittat någon annan än henne och Z'ren att hålla sällskap.\n\nZ'ren ville lära sig hur Corbin hade befallt elden på det sättet, så han följde med honom. Corbin gestikulerade åt honom att försöka svälja en låga. Z'ren försökte, misslyckades och brände sig. Så Corbin föreslog att han istället skulle blåsa ut elden över en fackla, och någonstans i det ögonblicket insåg Z'ren att han blev lurad. Han blåste lågan rakt på Corbin. Elden tog tag i honom, och Corbin varken skrek eller brann. Han gick helt enkelt upp i rök, borta, som om han aldrig funnits där. Z'ren stod ensam kvar med flaskan sprit Corbin gett honom, utan aning om vart mannen tagit vägen, och gick långsamt tillbaka till elden, djupt förvirrad.\n\nBänk och Edmund hade under tiden vandrat iväg bland tälten tillsammans, och Lady Carlotta följde efter dem i hemlighet. Trodde hon, ända tills en knäckt gren avslöjade henne och de två vände sig om och undrade vad hon egentligen höll på med. Hon sa att hon skulle gå tillbaka till Mr. Pudding och återvände till elden. Bänk och Edmund gick vidare. Bänk hade inte ätit något den kvällen, och hungern i honom var inte av det slaget som mat ensam kunde stilla. Han behövde något mer, ett offer, åtminstone för inatt. Edmund frågade hur hungrig han var, och Bänks svar sa tillräckligt. Edmund hade sitt eget begär: en instinkt, gammal och välbekant, att stjäla något innan natten var över.\n\nI utkanten av lägret hittade de en hästvagn med en kvinna som höll vakt bredvid den. Nadia Feugére var ung, med mörkt hår uppsatt i en knut, en mörkröd scarf, en piska inom räckhåll och skarpa ögon som ständigt mätte. Bänk gick fram till henne och frågade vad hon höll utkik efter, och medan han höll kvar hennes uppmärksamhet smög Edmund runt på andra sidan vagnen. Bänk var distraktionen. Under vagnen hittade Edmund en låda, och på lådan ett lås. Han satte igång och misslyckades, och verktyget bröts av i låset. Han tog ett andetag, fokuserade, försökte igen med ett nytt verktyg, och misslyckades igen. Han smälte tillbaka in i skuggorna. Bänk, som såg Edmund smyga därifrån, sa till Nadia att han skulle gå tillbaka till lägerelden.\n\nPå vägen tillbaka stötte de på Petra igen. Hon tog med Edmund till sin dockvagn och räckte honom en docka, och när han såg på den gick rädslan genom honom som iskallt vatten. Den var kusligt lik honom själv, som barn. På den lilla lappen som satt fast i den stod ett enda ord: Lucky. En souvenir, sa hon, att minnas lägret med, för de tar så väl hand om sina gäster. Edmund kunde knappt slita blicken från den, och dockans lilla, välbekanta ansikte skrämde honom mer än han ville visa. Edmund berättade för Bänk att låset på vagnen hade varit orimligt svårt, och att det som låg i lådan måste vara något mycket värdefullt. Lite längre fram hälsade Vesalka Thorn på dem, och Edmund, som försökte dölja sitt obehag, lyfte dockans hand och lät den vinka åt henne. Hon erbjöd sig att sia om hans framtid. Han accepterade, gav dockan till Bänk och satte sig för sin spådom. Fem kort. För kunskapen, Illusionisten. För skyddet, Girigbuken. För styrkan, Legoknekten. För vännen, Siaren. Och för faran, Marionetten, en docka i sina trådar, medan den lilla dockan som liknade honom som barn satt i Bänks händer bara några steg bort. När den var klar tackade han och reste sig för att gå, men kunde inte låta bli att fråga vad hon hade menat. Hon sa bara att hon kan erbjuda ett fönster, men inte ett man riktigt kan se igenom. Efter det ville Edmund inget hellre än att komma tillbaka till elden, och han gick dit direkt utan att stanna.\n\nSedan började föreställningen. The Beast in the Wild. Gruppen tittade, och en stund var det precis vad de blivit lovade. Sedan kom dimman rullande in över gläntan, tjock och vit och kall, och mitt i den lutade sig Synn nära Shava och viskade något på ett språk han inte riktigt kunde. Han förstod inte orden. Men han förstod tillräckligt. Det var en ursäkt. Dimman tog dem alla, drog ner dem i en trans, och när de vaknade var de någon helt annanstans.\n\nEtt grått land. Mörkt, spöklikt och tyst. Vägen bakom dem var uppslukad av dimman, och varje försök att se tillbaka visade bara mer dimma. Enda vägen var framåt. Z'ren tog täten, och snart kom de fram till en stor stenmur. Två höga pelare reste sig ur den täta skogen på var sida om vägen, sammanbundna av enorma järngrindar, med kall dagg som klamrade sig fast vid de rostiga stängerna. På var sida stod två statyer av beväpnade väktare, båda halshuggna, huvudena bortglömda i ogräset vid deras fötter. Inget fågelkvitter, ingen vind. Bara tyngden av järnet. Gates of Barovia. Z'ren gick vidare, och en efter en följde de andra honom genom grindarna.\n\nDe hade inte kommit långt längs vägen på andra sidan när Dorian lade märke till något halvt begravt i leran: ett lik, och i dess hand ett brev. Han drog loss det och läste det högt för de andra. Det var skrivet av Kolyan Indirovich, borgmästare i Barovia. Hans adoptivdotter, Ireena Kolyana, hade natt efter natt blivit biten av en vampyr, en varelse som druckit hans folks blod i över fyrahundra år och blivit för mäktig att besegra. Ireena tynade bort av det oheliga såret. Men han bad inte om räddning. Han bad den som läste brevet att ge Barovia förlorat, att omringa landet med det godas symboler och låta heliga män stänga in djävulen innanför dess murar, så att ondskan inte skulle sprida sig till resten av världen. Det fanns stor rikedom instängd i byn, skrev han, och den kunde hämtas när de alla var borta. Gruppen stod fortfarande över kroppen och försökte förstå vad de läst när vargarna började yla någonstans i skogen. Ingen väntade för att ta reda på hur nära de var. Med vapnen i händerna gick de vidare tillsammans.\n\nYlandet blev mer avlägset ju längre de gick, och i dess ställe kom ett annat ljud, ett som på något sätt var värre. Ett barn som grät. När de följde det kom ett hus till synes i en liten, dimhöljd glänta strax intill vägen: en hög herrgård flankerad av två förfallna uthus, men märkligt välskött jämfört med sina grannar, med oljade paneler och orörda gardiner, som om någon fortfarande bodde där och tog hand om den. Utanför en rostig järngrind stod två barn. En flicka i tioårsåldern, och en liten pojke på kanske sju år som grät. De sa att de hette Rose och Thorn. Deras föräldrar hade sagt åt dem att vänta utanför medan de tog hand om ett monster i källaren, och de hade inte kommit tillbaka. Barnen var rädda för deras skull och bad främlingarna gå in, hitta deras föräldrar och se till att de mådde bra.\n\nGruppen tog på sig uppgiften. Men först stannade de en stund hos barnen för att ta reda på vad de kunde: hur man tog sig ner i källaren, hur huset såg ut där inne. Rose och Thorn visste inte vägen ner; de hade aldrig varit där. Rose frågade Edmund om han kunde stanna hos dem, så att de kände sig trygga, som en storebror. Edmund förklarade varsamt att om de ville hjälpa sina föräldrar behövde alla gå in i huset tillsammans, och de förstod. Sedan vände sig Rose till Shava och frågade vem som hade lämnat honom, för han såg ut som någon som blivit lämnad helt ensam. Shava sa att han inte visste.\n\nEdmund bad Rose och Thorn vänta utanför, och de lovade att göra det. Och med barnen som såg på från grinden vände sig gruppen mot huset framför dem och öppnade dess dörrar."
+      }
+    ],
+    "npcs": [
+      {
+        "name": "Synn",
+        "appearance": "A female tiefling with deep red skin, dark curly hair loosely pinned up and curved, banded horns trimmed with gold. Golden amber eyes that seem to read people at a glance, in a worn but elegant performer's costume of wine red, purple and gold, hung with charms and trinkets.",
+        "locations": [
+          "Tent Camp"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/synn.jpg",
+        "appearanceSv": "En kvinnlig tiefling med djupt röd hud, mörkt lockigt hår i en lös uppsättning och böjda, bandade horn med gulddetaljer. Gyllene bärnstensfärgade ögon som verkar läsa av människor direkt, klädd i en sliten men elegant artistkostym i vinrött, lila och guld, behängd med amuletter och lyckobringare.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Tobias Wren",
+        "appearance": "A halfling in a patched, brightly coloured tailcoat and a top hat, wearing a smile that looks sewn in place. He carries a bronze staff topped with a speaking horn.",
+        "locations": [
+          "Tent Camp"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/tobias-wren.jpg",
+        "appearanceSv": "En halvling i en lappad frack i bjärta färger och hög hatt, med ett leende som verkar fastsytt. Han bär en stav i brons med en megafon högst upp.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Doridian Kessel",
+        "appearance": "A muscular middle-aged man with long, dark wavy hair and short stubble. His tattooed forearms are covered in scars from misses, and his constant smile never quite reaches his eyes.",
+        "locations": [
+          "Tent Camp",
+          "Main Stage"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/doridian-kessel.jpg",
+        "appearanceSv": "En muskulös medelålders man med långt mörkt vågigt hår och kort skäggstubb. Hans tatuerade underarmar är täckta av ärr från missar, och hans ständiga leende når aldrig riktigt ögonen.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Vesalka Thorn",
+        "appearance": "An older woman wrapped in layers of dark red shawls, with pencil-grey eyes, rings on every finger and a judging gaze. Her fingers are ice cold when she takes your wrist.",
+        "locations": [
+          "Tent Camp",
+          "Mirror Tent"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/vesalka-thorn.jpg",
+        "appearanceSv": "En äldre kvinna insvept i lager av mörkröda schalar, med blyertsgrå ögon, ringar på varje finger och en dömande blick. Hennes fingrar är iskalla när hon tar tag i ens handled.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Ilse Marrowgale",
+        "appearance": "A woman past her prime with long dark hair streaked with grey, piled high on her head. Her skin is pale, almost translucent, and her patchwork dress seems to shift at the corner of the eye.",
+        "locations": [
+          "Tent Camp",
+          "Mirror Tent"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/ilse-marrowgale.jpg",
+        "appearanceSv": "En något äldre kvinna med långt mörkt hår med grå stripor, uppsatt högt på huvudet. Hennes hy är blek, nästan genomskinlig, och hennes lapptäcksklänning verkar röra sig i ögonvrån.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Petra Duskbell",
+        "appearance": "A small, neat dwarven woman with long red-brown hair in several braids and large earrings. She smells of wood and lacquer and always carries a doll in her arms the way a parent carries a child.",
+        "locations": [
+          "Tent Camp",
+          "Puppet Wagon"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/petra-duskbell.jpg",
+        "appearanceSv": "En liten, prydlig dvärgkvinna med långt brunrött hår i flera flätor och stora örhängen. Hon doftar av trä och lack och bär alltid en docka i famnen som en förälder bär ett barn.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Yelena Grimauld",
+        "appearance": "A lithe half-elf acrobat with long dark hair in a braid down her back, dressed in very little. Spiral tattoos cover her skin and a scar runs along her spine.",
+        "locations": [
+          "Tent Camp",
+          "Acrobatics Tent"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/yelena-grimauld.jpg",
+        "appearanceSv": "En smidig halvalvisk akrobat med långt mörkt hår i en fläta ner över ryggen, klädd i väldigt lite. Spiralmönstrade tatueringar täcker hennes hud och ett ärr löper längs ryggraden.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Corbin Vashti",
+        "appearance": "A large, bald, middle-aged fire-eater with a big bushy beard. His face and hands are scarred, his eyebrows are burned away for good, and he always wears gloves outdoors.",
+        "locations": [
+          "Tent Camp"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/corbin-vashti.jpg",
+        "appearanceSv": "En stor, skallig medelålders eldslukare med ett stort yvigt skägg. Hans ansikte och händer är ärrade, ögonbrynen bortbrända för gott, och han bär alltid handskar utomhus.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Nadia Feugére",
+        "appearance": "A young woman with dark hair tied in a knot, practical cloth clothes and a dark red scarf. She keeps a whip within reach and sharp eyes that are always sizing people up.",
+        "locations": [
+          "Tent Camp",
+          "Wagon Camp"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/nadia-feugere.jpg",
+        "appearanceSv": "En ung kvinna med mörkt hår uppsatt i en knut, praktiska tygkläder och en mörkröd scarf. Hon har alltid en piska inom räckhåll och skarpa ögon som ständigt bedömer folk.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Harlan Croix",
+        "appearance": "A jester in a patched motley with bells and a fool's cap. He wears a mask split into two faces, one smiling and one weeping, and changes face by turning his head.",
+        "locations": [
+          "Tent Camp"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/harlan-croix.jpg",
+        "appearanceSv": "En gycklare i en lappad dräkt med bjällror och narrmössa. Han bär en mask delad i två ansikten, ett leende och ett gråtande, och byter ansikte genom att vända på huvudet.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Rose",
+        "appearance": "A girl of about ten waiting outside the house in the woods, frightened for her parents but trying to be brave for her little brother.",
+        "locations": [
+          "Death House"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/rose.jpg",
+        "appearanceSv": "En flicka i tioårsåldern som väntar utanför huset i skogen, rädd för sina föräldrar men försöker vara modig för sin lillebrors skull.",
+        "sessions": [
+          1
+        ]
+      },
+      {
+        "name": "Thorn",
+        "appearance": "Rose's little brother, about seven years old, crying outside the house in the woods.",
+        "locations": [
+          "Death House"
+        ],
+        "firstSession": 1,
+        "image": "assets/images/npcs/thorn.jpg",
+        "appearanceSv": "Roses lillebror, omkring sju år gammal, som står och gråter utanför huset i skogen.",
+        "sessions": [
+          1
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "name": "Tent Camp",
+        "sessions": [
+          1
+        ],
+        "events": [
+          "Shava followed a scent from the road to Daggerford to a tent camp of performers, where Tobias Wren and Synn welcomed the party (S1).",
+          "Synn offered food and a bed for the night in exchange for honest criticism of the show The Beast in the Wild (S1).",
+          "Z'ren lost a knife-throwing challenge to Doridian Kessel at the Main Stage (S1).",
+          "Vesalka Thorn read the Tarokka for Shava (Conjurer, Abjurer, Myrmidon, Ghost, Tempter) and later for Edmund (Illusionist, Miser, Mercenary, Seer, Marionette) (S1).",
+          "Corbin Vashti told a story in green flames of a ruler saved by a wandering people (S1).",
+          "Z'ren blew fire at Corbin, who went up in smoke (S1).",
+          "Edmund failed twice to pick the lock on a box under Nadia Feugére's wagon while Bänk distracted her (S1).",
+          "Petra Duskbell gave Edmund a doll that looks like him as a child, labelled Lucky (S1).",
+          "The mist rolled in during the show and carried the party away; Synn whispered an apology to Shava (S1)."
+        ],
+        "eventsSv": [
+          "Shava följde en doft från vägen mot Daggerford till ett tältläger fullt av artister, där Tobias Wren och Synn välkomnade gruppen (S1).",
+          "Synn erbjöd mat och en säng för natten i utbyte mot ärlig kritik av föreställningen The Beast in the Wild (S1).",
+          "Z'ren förlorade en knivkastningsutmaning mot Doridian Kessel vid huvudscenen (S1).",
+          "Vesalka Thorn lade Tarokka-kort för Shava (Besvärjaren, Besvärjaren av skydd, Myrmidonen, Spöket, Frestaren) och senare för Edmund (Illusionisten, Girigbuken, Legoknekten, Siaren, Marionetten) (S1).",
+          "Corbin Vashti berättade en historia i gröna lågor om en härskare som räddades av ett vandrande folk (S1).",
+          "Z'ren blåste eld på Corbin, som gick upp i rök (S1).",
+          "Edmund misslyckades två gånger med att dyrka upp låset på en låda under Nadia Feugéres vagn medan Bänk distraherade henne (S1).",
+          "Petra Duskbell gav Edmund en docka som liknar honom som barn, märkt Lucky (S1).",
+          "Dimman rullade in under föreställningen och tog gruppen; Synn viskade en ursäkt till Shava (S1)."
+        ]
+      },
+      {
+        "name": "Gates of Barovia",
+        "sessions": [
+          1
+        ],
+        "events": [
+          "The party woke from the mist in a grey land with the road behind them swallowed up (S1).",
+          "Z'ren led the party through the iron gates flanked by headless statues (S1)."
+        ],
+        "eventsSv": [
+          "Gruppen vaknade ur dimman i ett grått land där vägen bakom dem hade slukats (S1).",
+          "Z'ren ledde gruppen genom järngrindarna som flankeras av halshuggna statyer (S1)."
+        ]
+      },
+      {
+        "name": "Svalich Woods",
+        "sessions": [
+          1
+        ],
+        "events": [
+          "Dorian found a half-buried corpse on the road holding a letter from Kolyan Indirovich, the Burgomaster of Barovia, telling of a vampire preying on his adopted daughter Ireena (S1).",
+          "Wolves howled in the woods as the party moved on (S1)."
+        ],
+        "eventsSv": [
+          "Dorian hittade ett halvt begravt lik på vägen som höll i ett brev från Kolyan Indirovich, borgmästare i Barovia, om en vampyr som ger sig på hans adoptivdotter Ireena (S1).",
+          "Vargar ylade i skogen när gruppen gick vidare (S1)."
+        ]
+      },
+      {
+        "name": "Death House",
+        "sessions": [
+          1
+        ],
+        "events": [
+          "Rose and Thorn waited outside and begged the party to find their parents, who had gone to deal with a monster in the basement (S1).",
+          "Rose asked Edmund to stay as their big brother, and asked Shava who had left him alone (S1).",
+          "The children promised to wait outside as the party opened the doors to the house (S1)."
+        ],
+        "eventsSv": [
+          "Rose och Thorn väntade utanför och bad gruppen hitta deras föräldrar, som gått för att ta hand om ett monster i källaren (S1).",
+          "Rose bad Edmund stanna som deras storebror, och frågade Shava vem som lämnat honom ensam (S1).",
+          "Barnen lovade att vänta utanför när gruppen öppnade dörrarna till huset (S1)."
+        ]
+      }
+    ],
     "factions": [],
-    "goals": []
+    "goals": [
+      {
+        "id": 1,
+        "text": "Find Rose and Thorn's parents inside the house.",
+        "session": 1,
+        "status": "active",
+        "textSv": "Hitta Rose och Thorns föräldrar inne i huset."
+      },
+      {
+        "id": 2,
+        "text": "Find a way down to the basement and the monster the parents went to face.",
+        "session": 1,
+        "status": "active",
+        "textSv": "Hitta vägen ner till källaren och monstret som föräldrarna gick för att möta."
+      }
+    ]
   }
 }
