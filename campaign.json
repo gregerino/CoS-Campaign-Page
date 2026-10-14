@@ -79,7 +79,7 @@
         "id": 1,
         "title": "Session 1",
         "date": "13 Oktober 2026",
-        "where": "On the road to Daggerford the party was drawn off the path to a tent camp full of people who make their living from performance and spectacle, where they split up between the main stage, the mirror tent, the acrobatics tent, the puppet wagon and the wagon camp. When the mist came during the show it carried them to the Gates of Barovia, and from there down the road through the woods to a lonely house: Death House.",
+        "where": "On the road to Daggerford the party was drawn off the path to a tent camp full of people who make their living from performance and spectacle, where they split up between the main stage, the mirror tent, the acrobatics tent, the puppet wagon and the wagon camp. When the mist came during the show it carried them to the Gates of Barovia, and from there down the road through the woods to a lonely house: the Mansion.",
         "who": "Tobias Wren and Synn welcomed the party at the edge of the tent camp. Inside they met the knife-thrower Doridian Kessel, the fortune teller Vesalka Thorn, the puppet maker Petra Duskbell, the acrobat Yelena Grimauld, the fire-eater Corbin Vashti and the wagon keeper Nadia Feugére, and glimpsed Ilse Marrowgale and the jester Harlan Croix. Beyond the gates they met two frightened children, Rose and Thorn.",
         "what": "The party accepted Synn's offer of food and a bed in exchange for honest criticism of her show. Z'ren lost a knife-throwing contest to Doridian, Vesalka read the Tarokka for Shava (the Conjurer, the Abjurer, the Myrmidon, the Ghost and the Tempter) and for Edmund (the Illusionist, the Miser, the Mercenary, the Seer and the Marionette), and Corbin told a story in green flames of a ruler saved by a wandering people. Z'ren blew fire at Corbin, who vanished in smoke. Bänk distracted Nadia while Edmund failed to pick the lock on a box under her wagon, and Petra gave Edmund a doll labelled Lucky that frightened him. During the show the mist carried the party into a grey land, through the Gates of Barovia, past a corpse holding a letter from the Burgomaster of Barovia, to a house where Rose and Thorn begged them to find their parents.",
         "learned": "Shava's Emberheart grows warm near Synn, and she whispered him an apology as the mist took the party. When Corbin was attacked he simply went up in smoke. Petra had a doll that looks exactly like Edmund as a child. The mist closes the road behind them; the only way is forward. A letter from Kolyan Indirovich, the Burgomaster of Barovia, tells of a vampire that has preyed on his people for over four hundred years and is now feeding on his adopted daughter Ireena; he begs outsiders to seal the land away rather than come to save it. Rose and Thorn's parents went into the basement to deal with a monster and have not come back.",
@@ -229,7 +229,7 @@
         "name": "Rose",
         "appearance": "A girl of about ten waiting outside the house in the woods, frightened for her parents but trying to be brave for her little brother.",
         "locations": [
-          "Death House"
+          "The Mansion"
         ],
         "firstSession": 1,
         "image": "assets/images/npcs/rose.jpg",
@@ -242,7 +242,7 @@
         "name": "Thorn",
         "appearance": "Rose's little brother, about seven years old, crying outside the house in the woods.",
         "locations": [
-          "Death House"
+          "The Mansion"
         ],
         "firstSession": 1,
         "image": "assets/images/npcs/thorn.jpg",
@@ -310,7 +310,7 @@
         ]
       },
       {
-        "name": "Death House",
+        "name": "The Mansion",
         "sessions": [
           1
         ],
